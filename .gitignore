@@ -1,0 +1,4 @@
+*.iml
+.idea
+.vagrant
+sync/*.img
