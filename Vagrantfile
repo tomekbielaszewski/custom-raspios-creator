@@ -13,7 +13,7 @@ sudo apt-get install -y xz-utils
 unxz -v $2
 
 # resize image
-sudo apt-get update -yx
+sudo apt-get update -y
 sudo apt-get install -y qemu-utils
 sudo qemu-img resize -f raw $3 +100M
 sudo growpart $3 2
